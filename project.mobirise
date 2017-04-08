@@ -26,14 +26,14 @@
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/hackware-logo-128x165-2.png",
     "noImageResize": "",
-    "cookiesAlert": "De cookie op deze site wordt niet gedeeld met adverteerders of andere aanbieders. Wij doen hier niet aan mee."
+    "cookiesAlert": "De cookies op deze site wordt niet gedeeld met adverteerders of andere aanbieders. "
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "./HackWare helpt organisaties bestendiger maken tegen cyber dreigingen",
-        "meta_descr": "Pentest hacking IT security malware ransomware IP camera information security hacker ",
+        "meta_descr": "Pentest hacking IT security malware ransomware IP camera information security hacker  intelligente camera beveiliging website test fysieke beveiliging",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -332,173 +332,6 @@
           },
           "text1": "<p><strong>HackWare</strong><br>Tel: Op aanvraag i.v.m. reclamebureaus<br>KvK: 67555365<br>Barendrecht<br><br><br><br>\n<a href=\"https://github.com/hackwarenl/site/blob/master/Algemene%20Voorwaarden.pdf\" target=\"_blank\">Lees onze Algemene Voorwaarden</a><a href=\"https://github.com/hackwarenl/site/blob/master/Algemene%20Voorwaarden.pdf\" target=\"_blank\"></a><br><br></p>",
           "text2": "<p class=\"mbr-contacts__text\"><br></p><p class=\"mbr-contacts__text\">Neem contact met ons op met het formulier op deze site om uw wensen kenbaar te maken zodat er een vrijblijvende afspraak gemaakt kan worden.</p>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "etc@nepsi.nl",
-            "alerts": {
-              "success": "Bedankt voor uw bericht. Er wordt zo spoedig mogelijk gereageerd op uw bericht."
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": false,
-                "customTitle": "Name*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Wat is uw email adres"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": false,
-                "customTitle": "Wilt u liever gebeld worden?"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Bericht"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Verstuur bericht</a>"
-        }
-      ]
-    },
-    "informatiebeveiliging-scan.html": {
-      "settings": {
-        "title": "Informatiebeveiliging Scan om uw organisatie te beschermen tegen cyber aanvallers",
-        "meta_descr": "informatiebeveiliging, security scan, it security, hackers, cyber, "
-      },
-      "components": [
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-9",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2017 HackWare."
-        },
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "18px"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-a",
-          "_params": {
-            "bgColor": "#282828",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/hackware-logo-98x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://hackware.nl",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://hackware.nl\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HackWare</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header5-8\">INLEIDING&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features6-5\">DIENSTEN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts4-7\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts4",
-          "_styles": {
-            "STRONG": {
-              "color": "#00ff06"
-            }
-          },
-          "_anchor": "contacts4-b",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "text1": "<strong>HackWare</strong><br>\nKvK: 67555365<br>Barendrecht<br><br><br><br>\n<a href=\"https://github.com/hackwarenl/site/blob/master/Algemene%20Voorwaarden.pdf\" target=\"_blank\">Algemene voorwaarden</a><br><br>",
-          "text2": "<p class=\"mbr-contacts__text\"><br></p><p class=\"mbr-contacts__text\"><br></p>",
           "form": {
             "title": "MESSAGE",
             "action": "etc@nepsi.nl",
